@@ -20,11 +20,11 @@ class Product implements Comparable<Product> {
 			return 0;
 		}else {
 			if(id> p.id) {
-				return 1;
+				return 0;
 			}
 			else
 			{
-				return -1;
+				return 1;
 			}
 		}
 	}
