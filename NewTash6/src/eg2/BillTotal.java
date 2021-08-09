@@ -21,6 +21,9 @@ public class BillTotal {
 	
 	Integer total = Billtotal.stream().map(e->e.getPrice()).reduce(0,(sum,element)-> sum+element);
 	
+	System.out.println("total =" +total);
+	System.out.println("bill total =" +(total *105)/100);
+	
    }
 
 }

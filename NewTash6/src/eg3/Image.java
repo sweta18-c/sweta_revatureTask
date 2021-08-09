@@ -11,9 +11,8 @@ import java.io.IOException;
 public class Image {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		try{
-			FileInputStream n = new FileInputStream("D:\\smile.rar");
+			FileInputStream n = new FileInputStream("D:\\smile.");
 			FileOutputStream o = new FileOutputStream("D:\\picture.jpg");
 			BufferedInputStream s = new BufferedInputStream(n);
 			BufferedOutputStream s1 = new BufferedOutputStream(o);
